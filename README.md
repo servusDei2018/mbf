@@ -65,7 +65,7 @@ def run():
 	m.login()
 	print("Logged in.")
 	m.send("tell {} Mbf test online".format(master))
-	m.process_triggers()
+	m.start_processing()
 
 if __name__ == '__main__':
 	run()
